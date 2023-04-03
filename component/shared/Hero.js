@@ -11,11 +11,27 @@ export default function Hero(props) {
         <h2 className=' text-7xl max-w-xs '>
           sale up to <strong>50% off</strong> 
         </h2>
-        <button className='text-white px-4 py-2 bg-red-400 rounded-xl  mt-10' type='button' >shop now <i class="fa-solid fa-basket-shopping "></i></button>
+        <button className='text-white px-4 py-2 bg-red-400 rounded-xl  mt-10' type='button' >shop now <i className="fa-solid fa-basket-shopping "></i></button>
       </div>
 
       <div className='w-[50%]'>
-      <Image src={props.slider} alt='50% off' className=' mx-auto '/>
+      <Image src={props.slider} alt='50% off' className=' mx-auto z-30'/>
+      <div className=' w-[250px] h-[150px] flex bg-white rounded justify-between ml-[300px] mt-[-150px] z-50 absolute'>
+       <div className=' mx-auto my-auto  '>
+       <h5>
+          full dress
+        </h5>
+        <span>
+         $21:00
+        </span>
+        <button className='text-red-400 block' type='button' >shop now <i className="fa-solid fa-basket-shopping "></i></button>
+
+       </div>
+       <div className=' mx-auto my-auto  ' >
+        <Image alt='dress'src={props.dress} />
+       </div>
+
+      </div>
       </div>
 
     </div>
