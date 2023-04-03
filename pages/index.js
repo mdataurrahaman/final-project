@@ -5,6 +5,9 @@ import Hero from '../component/shared/Hero'
 import slider1 from '../public/img/slider-1.png'
 import slider2 from '../public/img/slider-2.png'
 import display from '../public/img/display-image.png'
+import Salertype from '../component/Salertype'
+import CardSPR from '../component/shared/CardSPR'
+
 
 export default function Home() {
   return (
@@ -22,7 +25,22 @@ export default function Home() {
         <div className='absolute bg-red-50 w-[100%] inset-x-0 top-14 z-40 flex justify-center flex-col '>
         <Hero slider={slider1} dress={display}  />
         <Hero slider={slider2} dress={display} />
+       <div className='w-full bg-white flex flex-col justify-center'>
+   
+       <Salertype/>
+
+      
+       <div className='w-[1140px] flex justify-self-center bg-gray-500 '>
+     
+            <CardSPR icon={<i className="fa-solid fa-truck-arrow-right"></i>} title='Free Shipping' description='Capped at $39 per order' />
         </div>
+
+       </div>
+       
+       
+       
+        </div>
+        
         
        
       </main>
