@@ -1,12 +1,13 @@
 import Head from 'next/head'
-import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Header from '../component/shared/Header'
 import Hero from '../component/shared/Hero'
-
+import slider1 from '../public/img/slider-1.png'
+import slider2 from '../public/img/slider-2.png'
 
 export default function Home() {
   return (
+
     <div className={styles.container}>
       <Head>
         <title>final project e-commerce site</title>
@@ -17,13 +18,19 @@ export default function Home() {
 
       <main className={styles.main}>
         <Header/>
-        <Hero/>
-      
+        <div className='absolute bg-red-50 w-[100%] inset-x-0 top-14 z-40 flex justify-center flex-col '>
+        <Hero slider={slider1}  />
+        <Hero slider={slider2} />
+        </div>
+        
+       
       </main>
 
       <footer className={styles.footer}>
        
       </footer>
     </div>
+
+
   )
 }
