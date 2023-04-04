@@ -7,6 +7,7 @@ import slider2 from '../public/img/slider-2.png'
 import display from '../public/img/display-image.png'
 import Salertype from '../component/Salertype'
 import CardSPR from '../component/shared/CardSPR'
+import ProductCatagory from '../component/ProductCatagory'
 
 
 export default function Home() {
@@ -25,7 +26,7 @@ export default function Home() {
         <div className='absolute bg-red-50 w-[100%] inset-x-0 top-14 z-40 flex justify-center flex-col '>
         <Hero slider={slider1} dress={display}  />
         <Hero slider={slider2} dress={display} />
-       <div className='w-full bg-white flex flex-col justify-center'>
+       <div className='w-full bg-white flex-col justify-center'>
    
        <Salertype/>
   
@@ -34,6 +35,13 @@ export default function Home() {
             <CardSPR icon={<i className="fa-solid fa-truck-arrow-right"></i>} title='Free Shipping' description='Capped at $39 per order' />
             <CardSPR icon={<i class="fa-regular fa-credit-card"></i>} title='Card Payments' description='12 Months Installments' />
             <CardSPR icon={<i class="fa-solid fa-person-walking-arrow-loop-left"></i>} title='Easy Returns' description='Shop With Confidence' />
+        </div>
+
+        <ProductCatagory/>
+
+
+        <div className=' p-20'>
+
         </div>
 
       
@@ -47,6 +55,8 @@ export default function Home() {
         
        
       </main>
+
+      
 
       <footer className={styles.footer}>
        

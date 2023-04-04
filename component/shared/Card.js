@@ -12,6 +12,7 @@ export default function Card(props) {
         best collection for {props.title}
         </h6>
         <button className='text-white px-4 py-2 bg-red-400 rounded-xl ml-5 mt-5' type='button' >shop now <i class="fa-solid fa-basket-shopping "></i></button>
+        
        
     </div>
     
