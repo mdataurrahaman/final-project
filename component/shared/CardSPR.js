@@ -1,16 +1,18 @@
 import React from 'react'
-import Image from 'next/image'
+
 
 function CardSPR(props) {
   return (
     <>
-    <div className=' w-[30%] flex' >
-        <div>
-            <Image src={props.icon}/>
+    <div className=' w-[32%] flex border border-inherit p-6'  >
+        <div className='mt-3'>
+           <span className=' text-4xl p-3 rounded-full bg-red-400'>
+           {props.icon}
+           </span>
         </div>
 
-        <div>
-            <h4>
+        <div className='ml-5'>
+            <h4 className=' text-3xl'>
                 {props.title}
             </h4>
             <p>

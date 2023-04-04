@@ -28,12 +28,15 @@ export default function Home() {
        <div className='w-full bg-white flex flex-col justify-center'>
    
        <Salertype/>
-
-      
-       <div className='w-[1140px] flex justify-self-center bg-gray-500 '>
+  
+       <div className='w-[1140px] flex mx-auto justify-between'>
      
             <CardSPR icon={<i className="fa-solid fa-truck-arrow-right"></i>} title='Free Shipping' description='Capped at $39 per order' />
+            <CardSPR icon={<i class="fa-regular fa-credit-card"></i>} title='Card Payments' description='12 Months Installments' />
+            <CardSPR icon={<i class="fa-solid fa-person-walking-arrow-loop-left"></i>} title='Easy Returns' description='Shop With Confidence' />
         </div>
+
+      
 
        </div>
        
