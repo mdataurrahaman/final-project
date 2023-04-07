@@ -7,7 +7,10 @@ function AllProducts() {
   return (
         <Fragment>
             <div 
-            className='w-[1140px] mx-auto flex justify-between pt-10 relative'>
+            className='w-[1140px] mx-auto flex justify-between pt-10 '>
+              <Efect/>
+              <Efect/>
+              <Efect/>
               <Efect/>
             </div>
         </Fragment>

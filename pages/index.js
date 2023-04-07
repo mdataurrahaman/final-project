@@ -29,7 +29,7 @@ export default function Home() {
                         <SimpleSlider/>
                     </header>
 
-                    <div className='w-full bg-white flex-col justify-center pt-10'>
+                    <div className='w-full bg-white flex flex-col  pt-10'>
 
                         <Salertype/>
 
