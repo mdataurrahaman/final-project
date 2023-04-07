@@ -8,6 +8,9 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import SprBox from '../component/SprBox'
 import AllProducts from '../component/AllProducts'
+import FassionShop from '../component/FassionShop'
+import Testimonial from '../component/Testimonial'
+import Brand from '../component/Brand'
 
 export default function Home() {
     return (
@@ -39,11 +42,17 @@ export default function Home() {
                       
                         <AllProducts/>
 
+                        <FassionShop/>
+
+                        <Testimonial/>
+
+                        <Brand/>
+
                         
 
                     </div>
 
-                    <div className='pt-10'></div>
+                  
                 </div>
 
             </main>

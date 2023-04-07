@@ -32,13 +32,13 @@ function Efect() {
         </div>
        
        
-        <Image src={ picture} className=' hover:effect-hover:block' />
-        <Image src={ effectHover} className='hidden effect-hover'  />
+        <Image src={ picture} className=' ' />
+        <Image src={ effectHover} className='hidden '  />
         
         <span>
         <i className="fa-solid fa-star"></i>
         </span>
-        <p className='hover:text-red-300'>
+        <p className='hover:text-red-300 cursor-pointer'>
         Women's Elizabeth Coat
         </p>
        <p  className='hover:text-red-300'>
